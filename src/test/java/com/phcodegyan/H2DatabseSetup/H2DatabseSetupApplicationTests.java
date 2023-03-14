@@ -40,7 +40,7 @@ class H2DatabseSetupApplicationTests {
 	private TestRestTemplate restTemplate;
 
 	@Test
-	public void shouldPassIfStringMatches() throws Exception {
+	public void shouldPassIfStringMatches(){
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/", String.class)).contains("Hello World from Spring Boot");
 	}
 
