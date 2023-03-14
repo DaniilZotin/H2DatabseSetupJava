@@ -31,7 +31,7 @@ class H2DatabseSetupApplicationTests {
 
 	@Autowired
 	private Servise servise;
-	String ageResult, ageExpected;
+	String nameResult, nameExpected;
 
 	@LocalServerPort
 	private int port;
@@ -59,8 +59,8 @@ class H2DatabseSetupApplicationTests {
 	public void nameEquals() {
 		List<Age> people = servise.baseAge(2l);
 		List<Age> ageList = new ArrayList<>(List.of(new Age("Alex",20L,2l)));
-		people.forEach(person -> {ageResult = person.getName();});
-		ageList.forEach(person -> {ageExpected = person.getName();});
-		assertEquals(ageExpected,ageResult);
+		people.forEach(person -> {nameResult = person.getName();});
+		ageList.forEach(person -> {nameExpected = person.getName();});
+		assertEquals(nameExpected,nameResult);
 	}
 }
