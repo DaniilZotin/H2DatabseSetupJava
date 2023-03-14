@@ -1,26 +1,15 @@
 package com.phcodegyan.H2DatabseSetup;
 
-import com.phcodegyan.H2DatabseSetup.controllers.Controller;
+
 import com.phcodegyan.H2DatabseSetup.db.Person;
 import com.phcodegyan.H2DatabseSetup.repositories.PersonRep;
-import com.phcodegyan.H2DatabseSetup.servises.Servise;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringApplicationAotProcessor;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.Period;
-import java.util.Date;
+
 
 
 @SpringBootApplication

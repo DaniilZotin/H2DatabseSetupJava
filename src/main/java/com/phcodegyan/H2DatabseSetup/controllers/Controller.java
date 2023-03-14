@@ -1,8 +1,7 @@
 package com.phcodegyan.H2DatabseSetup.controllers;
 
 import com.phcodegyan.H2DatabseSetup.db.Age;
-import com.phcodegyan.H2DatabseSetup.db.Person;
-import com.phcodegyan.H2DatabseSetup.repositories.PersonRep;
+
 import com.phcodegyan.H2DatabseSetup.servises.Servise;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
@@ -11,10 +10,6 @@ import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 @RestController

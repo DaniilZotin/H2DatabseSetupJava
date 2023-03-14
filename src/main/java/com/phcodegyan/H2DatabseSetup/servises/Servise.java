@@ -1,14 +1,9 @@
 package com.phcodegyan.H2DatabseSetup.servises;
 
-import com.phcodegyan.H2DatabseSetup.H2DatabseSetupApplication;
 import com.phcodegyan.H2DatabseSetup.db.Age;
 import com.phcodegyan.H2DatabseSetup.db.Person;
 import com.phcodegyan.H2DatabseSetup.repositories.PersonRep;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
